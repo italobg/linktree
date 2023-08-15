@@ -7,7 +7,6 @@
 }
 
 :root {
-
     --accentcolor: #3a3a3a;
 
 }
@@ -28,20 +27,19 @@
 }
 
 .foto {
-    margin: 2px;
+    margin: 1px;
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 100px;
     max-height: auto;
 }
 
-.link-tree h1 {
+.title {
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    padding: none;
 }
 
 .link-tree a {
-    background-color: var (--accentcolor);
+    background-color: #ffffff;
     color: #3a3a3a;
     width: 150px;
     padding: 15px;
@@ -57,25 +55,13 @@
 }
 
 .link-tree p {
-    font-family: monospace;
-}
-
-.link-tree a:hover {
-    background-color: #3a3a3a;
-    color:#ffffff;
+    font-family: 'Rubik', sans-serif;
 }
 
 @media (min-width: 1024px) {
     .link-tree {
         width: 40vw;
     }
-}
-
-.botoes {
-    border-radius: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
-   
 }
 
 .tag {
@@ -90,7 +76,7 @@
 }
 
 .icones {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .linear-list {
@@ -100,5 +86,9 @@
 }
 
 .linear-list li {
+    margin: 10px;
+}
+
+.fa-brands {
     margin: 10px;
 }
